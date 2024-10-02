@@ -1,4 +1,4 @@
-my_string = "HelloWorld"
+my_string = "Hello World!"
 
 print(my_string[6])
 
@@ -8,6 +8,6 @@ print(len(my_string))
 
 # check if two strings are equal
 string1 = "abc"
-string2 = "abcd"
+string2 = "dabc"
 print(string1 == string2)
 print(string1 in string2)
