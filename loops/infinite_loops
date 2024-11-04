@@ -1,0 +1,9 @@
+
+is_out = True
+has_milk = False
+
+while not has_milk:
+    print('milk purchased')
+    has_milk = True
+
+
