@@ -12,4 +12,5 @@ while not is_valid:
 # another way to setup the loop:
 password = input('enter a password')
 while not(len(password) >= 8 and not username in password):
+    print('passwords must be 8 or more characters  and must not contain the username!')
     password = input('enter a password')
