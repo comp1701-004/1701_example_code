@@ -82,5 +82,6 @@ for student_number in range(4):
 
 
 days = ['Su', 'M', 'Tu', 'W', 'Tr', 'F', 'Sa']
-days.reverse()
-print(days)
+
+print(days[::-1])
+
