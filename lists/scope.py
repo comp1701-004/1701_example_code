@@ -1,14 +1,17 @@
-def my_func(some_int: int, some_list: list) -> None:
-    some_int += 1
-    print(f'id of some_int', id(some_int))
-    print(f'id of some_list', id(some_list))
+def modify_a_list(a_list: list) -> None:
+    a_list.append(4)
+    print(a_list)
 
-a = 1
-b = a
-my_list = ['a', 'b', 'hello']
+def modify_an_int(a_int: int) -> None:
+    a_int += 1
+    print(a_int)
 
-print('id of a', id(a))
-print('id of my_list', id(my_list))
-my_func(a, my_list)
+l = [1, 2, 3]
+modify_a_list(l) # prints [1, 2, 3, 4]
+print(l) # prints [1, 2, 3, 4]   why?
+
+i = 5
+modify_an_int(i)
+print(i)
 
 
