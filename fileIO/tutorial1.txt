@@ -1,0 +1,9 @@
+& "C:/Program Files/Python312/python.exe" h:/1701/1701_examples/fileIO/tutorial.py
+a
+b
+
+
+1
+2
+3
+4
