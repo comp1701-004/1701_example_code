@@ -1,7 +1,7 @@
 
 file = open('./fileIO/import_this.txt', 'r')
 
-lines = file.readlines()
+lines = file.read().split('\n')
 file.close()
 
 # count number of lines
