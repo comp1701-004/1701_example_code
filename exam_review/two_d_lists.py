@@ -5,8 +5,8 @@
 # 1s to indicate Xs
 # -1s to indicate Os
 board = [
-    [0, 0, 0],
-    [0, 0, 0],
+    [0, 0, 1],
+    [0, -1, 0],
     [0, 0, 0],
 ]
 
@@ -65,8 +65,8 @@ def check_for_win(board: list) -> int:
 
 # here's another board
 board = [
-    [0, 0, -1],
+    [0, 0, 1],
     [-1, -1, -1],
-    [-1, 0, 1],
+    [1, 0, 1],
 ]
 print(check_for_win(board))
